@@ -1,38 +1,55 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(234, 232, 232);
+}
+h1 {
   text-align: center;
+  font-size: 3.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 20vh 0 0 25vw;
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 5%;
+  border: 2px solid rgb(207, 199, 199);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+span {
+  color: rgb(76, 217, 233);
+  font-size: 1.7rem;
+  margin-left: 0.4rem;
+}
+.container input {
+  margin-top: 8vh;
+  width: 30vh;
+}
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  margin-top: 3.2rem;
+}
+.buttons button {
+  background-color: rgb(76, 217, 233);
   color: white;
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 20%;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover {
+  border: 2px solid red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:hover {
+  border: 2px solid red;
+}
+p {
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
